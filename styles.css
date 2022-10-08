@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    color: #40514E;
+}
+/*We have used fall backs in font-family as no font is 100% web safe preferred is verdana if not available them geneva
+if not available tahoma else the default sans-serif available on that OS*/
+h1{
+    margin: 50px auto 0 auto;
+    font-family:'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+/*we are using dynamic font size so 100% corresponds to 16px so 90px is 562.5%, this is so that things remain relative to font size settings
+we can also use em 1em=16px=100%
+now h1 will have very big size as 200% + 562.5% will be taken into account as parent of h1 is body and parent font size is considered
+use rem to avoid this*/
+
+h2{
+    font-size: 2.5rem;
+    color:#66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    color:#11999E;
+}
+
+a{
+    color: #11999E;
+}
+.TopContainer{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+
+}
+.dp{
+    border-radius: 100%;
+}
+.middle-container{
+    position: relative;
+    
+  
+}
+
+.bottom-container{
+    position:relative;
+    margin:50px auto 0px auto; 
+    background-color: #66BFBF;
+    padding-bottom: 100px;
+   
+}
+.bottom-cloud{
+    position:absolute;
+    left:300px;
+    bottom:300px;
+}
+.top-cloud{
+    position:absolute;
+    right:300px;
+    top:50px;
+}
+
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+.da{
+    width:25%;
+    float:left;
+    margin-right: 30px;
+}
+.wd{
+    width:25%;
+    float:right;
+    margin-left: 30px;
+}
+/*.Dadesc{
+    clear:left;
+}
+.Wddesc{
+    clear:right;
+}*/
+.desc{
+    color:#40514E;
+}
+hr{
+    
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: #caeded;
+    width: 5%;
+}
+
+.btn {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: Arial;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  .copy{
+    color:#EAF6F6;
+  }
